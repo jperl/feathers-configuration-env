@@ -1,0 +1,25 @@
+{
+  "name": "feathers-configuration-env",
+  "version": "0.0.2",
+  "description": "Load feathers configuration to environment variables",
+  "main": "index.js",
+  "bin": {
+    "feathers-configuration-env": "index.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Zipdrug",
+  "license": "MIT",
+  "peerDependencies": {
+    "feathers-configuration": "^0.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "feathers-configuration": "^0.3.3"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "shelljs": "^0.7.4"
+  }
+}
